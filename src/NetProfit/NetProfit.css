@@ -1,0 +1,84 @@
+/** @format */
+
+.net-profit {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: #333;
+	color: white;
+}
+
+.net-profit-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.net-profit-label {
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.net-profit-number {
+	font-size: 1em;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.net-profit-indicator {
+	font-size: 0.9em;
+	padding: 2px 6px;
+	border-radius: 4px;
+}
+
+.net-profit-indicator.positive {
+	color: #4caf50;
+	background-color: #e8f5e9;
+}
+
+.net-profit-indicator.negative {
+	color: #f44336;
+	background-color: #fce4e4;
+}
+
+.circle-chart-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.circle-chart {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: conic-gradient(#4caf50 80%, #333 0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.circle-chart-inner {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.percentage {
+	color: #4caf50;
+	font-size: 1.2em;
+}
+
+.rounded-value {
+	margin-top: 10px;
+	color: white;
+	font-size: 1em;
+}
